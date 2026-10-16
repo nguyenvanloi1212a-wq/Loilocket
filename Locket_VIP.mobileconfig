@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.nextdns.io/97b8ff</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Hồ sơ cấu hình VIP chặn thu hồi Locket Gold vĩnh viễn.</string>
+			<key>PayloadDisplayName</key>
+			<string>Locket Gold 💛 VanLoi206</string>
+			<key>PayloadIdentifier</key>
+			<string>com.vanloi206.dns</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>B19C9130-9B2E-4B19-810A-8D5E3A1A2B3C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Hồ sơ cấu hình VIP chặn thu hồi Locket Gold vĩnh viễn @VanLoi206</string>
+	<key>PayloadDisplayName</key>
+	<string>Locket Gold 💛 VanLoi206</string>
+	<key>PayloadIdentifier</key>
+	<string>com.vanloi206.profile</string>
+	<key>PayloadOrganization</key>
+	<string>VanLoi206</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F89D8B41-4E1B-4A73-981D-2C4D5E6F7A8B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
