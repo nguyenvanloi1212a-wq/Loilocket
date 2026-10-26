@@ -58,6 +58,9 @@ Object.assign(obj.entries, {
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true"
     });
+ 
+ // ============================================================
+
       // 2. CHẶN QUẢNG CÁO & TẮT TRACKING (SENTRY)
     // ============================================================
     Object.assign(obj.entries, {
