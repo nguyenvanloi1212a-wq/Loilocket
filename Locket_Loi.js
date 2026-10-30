@@ -1,5 +1,5 @@
 // ============================================================
-// Script Locket Gold Remote Config Full Suite 2026 (Full 221 Captions)
+// Script Locket Gold Remote Config Full Suite 2026 (Full 221 Captions - Fixed)
 // Tác giả: Nguyễn Văn Lợi (vanloi206)
 // ============================================================
 
@@ -354,7 +354,7 @@ if ($response.body) {
             onboarding_contact_permission_step: "true"
         });
 
-        // 8. OVERLAY & CUSTOM CAPTIONS (221 CAPTIONS FULL)
+        // 8. OVERLAY & CUSTOM CAPTIONS (221 CAPTIONS FULL - CLEANED)
         // ============================================================
         var defaultGeneral = {
             section: "🎨 General",
@@ -375,7 +375,7 @@ if ($response.body) {
 
         var customSections = [
             {
-                section: "🎨 😂 Hài Hước, Vô Tri",
+                section: "😂 Hài Hước, Vô Tri",
                 items: [
                     { overlay_id: "cap:hai_1", source: "remote", caption: { background: { colors: ["#FF9A9E", "#FBC2EB"] }, max_lines: 1, text: "Nhan sắc có hạn, tự tin vô biên 🤡", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "cap:hai_2", source: "remote", caption: { background: { colors: ["#A18CD1", "#FBC2EB"] }, max_lines: 1, text: "Mặt thì tỉnh, đầu thì khùng 🤪", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -404,7 +404,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🎀 Cute, Dễ Thương",
+                section: "🎀 Cute, Dễ Thương",
                 items: [
                     { overlay_id: "cap:cute_1", source: "remote", caption: { background: { colors: ["#F7971E", "#FFD200"] }, max_lines: 1, text: "Một chiếc em bé hơi lớn 🐣", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "cap:cute_2", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, max_lines: 1, text: "Hôm nay cũng ngoan, chắc vậy 🥺", text_color: "#FFFFFF", type: "static_content" } },
@@ -428,7 +428,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 💘 Thả Thính, Crush",
+                section: "💘 Thả Thính, Crush",
                 items: [
                     { overlay_id: "cap:thinh_1", source: "remote", caption: { background: { colors: ["#141E30", "#243B55"] }, max_lines: 1, text: "Đăng cho cả thế giới, chờ mỗi cậu 👀", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "cap:thinh_2", source: "remote", caption: { background: { colors: ["#FF512F", "#DD2476"] }, max_lines: 1, text: "Vô tình đăng, cố tình đợi 🤭", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -458,7 +458,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 😏 Châm Biếm, Cà Khịa Thấm",
+                section: "😏 Châm Biếm, Cà Khịa Thấm",
                 items: [
                     { overlay_id: "cap:khia_1", source: "remote", caption: { background: { colors: ["#00F2FE", "#4FACFE"] }, max_lines: 1, text: "Ai đọc thấy nhột thì tự gãi nha 🦟", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "cap:khia_2", source: "remote", caption: { background: { colors: ["#F7971E", "#FFD200"] }, max_lines: 1, text: "Không nhắc tên, người có tật tự giật mình 🤭", text_color: "#000000E6", type: "static_content" } },
@@ -492,7 +492,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🖤 Ngầu, Lạnh Lùng",
+                section: "🖤 Ngầu, Lạnh Lùng",
                 items: [
                     { overlay_id: "cap:ngau_1", source: "remote", caption: { background: { colors: ["#12C2E9", "#C471ED", "#F64F59"] }, max_lines: 1, text: "Ít nói, nhiều ảnh 🖤", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "cap:ngau_2", source: "remote", caption: { background: { colors: ["#00F2FE", "#4FACFE"] }, max_lines: 1, text: "Không cần nổi bật, chỉ cần khác biệt 🕶️", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -515,7 +515,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🥀 Tâm Trạng, Suy Nhẹ",
+                section: "🥀 Tâm Trạng, Suy Nhẹ",
                 items: [
                     { overlay_id: "cap:suy_1", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, max_lines: 1, text: "Hôm nay hơi im lặng một chút 🌧️", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "cap:suy_2", source: "remote", caption: { background: { colors: ["#8E2DE2", "#4A00E0"] }, max_lines: 1, text: "Cười vậy thôi, chứ cũng bình thường 🙂", text_color: "#FFFFFF", type: "static_content" } },
@@ -536,7 +536,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 💔 Tình Cảm, Mỉa Mai",
+                section: "💔 Tình Cảm, Mỉa Mai",
                 items: [
                     { overlay_id: "cap:tinh_1", source: "remote", caption: { background: { colors: ["#8E2DE2", "#4A00E0"] }, max_lines: 1, text: "Tình cảm không phải Wi-Fi, đừng lúc có lúc không 📶", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "cap:tinh_2", source: "remote", caption: { background: { colors: ["#2C3E50", "#4CA1AF"] }, max_lines: 1, text: "Thích thì nhắn, đừng thích xong đi mất tích 👻", text_color: "#FFFFFF", type: "static_content" } },
@@ -557,7 +557,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🐸 Bạn Bè, Cà Khịa Vui",
+                section: "🐸 Bạn Bè, Cà Khịa Vui",
                 items: [
                     { overlay_id: "cap:ban_1", source: "remote", caption: { background: { colors: ["#2C3E50", "#4CA1AF"] }, max_lines: 1, text: "Bạn tốt là người góp ý, bạn thân là người góp chuyện 🤣", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "cap:ban_2", source: "remote", caption: { background: { colors: ["#141E30", "#243B55"] }, max_lines: 1, text: "Hội bạn chất lượng, mỗi đứa một vấn đề 🤡", text_color: "#FFFFFF", type: "static_content" } },
@@ -575,7 +575,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🌷 Chill, Nhẹ Nhàng",
+                section: "🌷 Chill, Nhẹ Nhàng",
                 items: [
                     { overlay_id: "cap:chill_1", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, max_lines: 1, text: "Một chút nắng, một chút mình ☀️", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "cap:chill_2", source: "remote", caption: { background: { colors: ["#8E2DE2", "#4A00E0"] }, max_lines: 1, text: "Ngày bình thường, cảm xúc xinh xinh 🌷", text_color: "#FFFFFF", type: "static_content" } },
@@ -595,7 +595,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 ☕ Work, Study & Deadline",
+                section: "☕ Work, Study & Deadline",
                 items: [
                     { overlay_id: "cap:work_1", source: "remote", caption: { background: { colors: ["#232526", "#414345"] }, max_lines: 1, text: "Deadline dí tụt quần vẫn phải chụp cái ảnh 💻", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "cap:work_2", source: "remote", caption: { background: { colors: ["#8E2DE2", "#4A00E0"] }, max_lines: 1, text: "Học không vào nhưng ảnh lên sóng thì vào 📚", text_color: "#FFFFFF", type: "static_content" } },
@@ -606,7 +606,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🍕 Foodie & Chill Out",
+                section: "🍕 Foodie & Chill Out",
                 items: [
                     { overlay_id: "cap:food_1", source: "remote", caption: { background: { colors: ["#A18CD1", "#FBC2EB"] }, max_lines: 1, text: "Béo không phải là lỗi, béo là do đồ ăn quá ngon 🍜", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "cap:food_2", source: "remote", caption: { background: { colors: ["#FAD0C4", "#FFD1FF"] }, max_lines: 1, text: "Tâm hồn ăn uống, cơ thể bất ổn 🍰", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -616,7 +616,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 🤭 Caption Siêu Ngắn",
+                section: "🤭 Caption Siêu Ngắn",
                 items: [
                     { overlay_id: "cap:ngan_1", source: "remote", caption: { background: { colors: ["#C6FFDD", "#FBD786", "#F7797D"] }, max_lines: 1, text: "Nay hơi keo 😌", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "cap:ngan_2", source: "remote", caption: { background: { colors: ["#12C2E9", "#C471ED", "#F64F59"] }, max_lines: 1, text: "Bé đây nè 🐣", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -645,7 +645,7 @@ if ($response.body) {
                 ]
             },
             {
-                section: "🎨 👀 Cà Khịa Người Xem",
+                section: "👀 Cà Khịa Người Xem",
                 items: [
                     { overlay_id: "cap:xem_1", source: "remote", caption: { background: { colors: ["#FF9A9E", "#FBC2EB"] }, max_lines: 1, text: "Xem rồi thì thả tim, ngại gì ❤️", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "cap:xem_2", source: "remote", caption: { background: { colors: ["#A18CD1", "#FBC2EB"] }, max_lines: 1, text: "Online mà không tương tác là sao? 👀", text_color: "#FFFFFFE6", type: "static_content" } },
